@@ -4,12 +4,12 @@ This repository accompanies the Oxford RSE online course delivered on 17 Feb 202
 
 ## Getting started
 
-Before starting, make sure that you:
+Before starting, make sure that you have
 
-- have a [GitHub](http://github.com/) account, and are logged in
-- have [Git](https://git-scm.com/) installed on your computer
-- have [Python](https://www.python.org/downloads/) installed on your computer, v3.5 or newer
-- have a text editor installed on your computer. If you don't have a favourite, we suggest [VS Code](https://code.visualstudio.com/) and the [Python extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python).
+- a [GitHub](http://github.com/) account, and are logged in
+- [Git](https://git-scm.com/) installed on your computer
+- [Python](https://www.python.org/downloads/) installed on your computer, v3.5 or newer
+- a text editor installed on your computer. If you don't have a favourite, we suggest [VS Code](https://code.visualstudio.com/) and the [Python extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python).
 
 If you already have Python installed on your computer, you can check which version you have by opening a terminal (on macOS or Linux) or a command prompt (on Windows) and typing
 

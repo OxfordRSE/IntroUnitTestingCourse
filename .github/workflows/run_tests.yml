@@ -1,0 +1,35 @@
+name: "Unit tests"
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - '**'
+
+jobs:
+
+  build-and-test:
+    name: Unit tests
+    runs-on: ubuntu-20.04
+
+    steps:
+
+      - name: checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Python 3.9
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.9
+          architecture: x64
+
+      - name: install packages
+        run: |
+          python -m pip install --upgrade pip setuptools wheel
+          python -m pip install -e .
+
+      - name: python unit tests
+        run: |
+          pytest -v

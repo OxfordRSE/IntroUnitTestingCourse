@@ -14,7 +14,7 @@ Before starting, make sure that you have
 If you already have Python installed on your computer, you can check which version you have by opening a terminal (on macOS or Linux) or a command prompt (on Windows) and typing
 
 ```
-python --version
+python3 --version
 ```
 
 If you install Python for this course, go to the link above and choose the default option for your operating system.
@@ -40,7 +40,7 @@ From a terminal (on macOS or Linux) or a command prompt (on Windows), change to 
 We recommend creating a virtual environment for this course.
 Type
 ```
-python -m venv venv
+python3 -m venv venv
 ```
 
 On macOS or Linux, activate this environment by running

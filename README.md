@@ -10,6 +10,7 @@ Before starting, make sure that you have
 - [Git](https://git-scm.com/) installed on your computer
 - [Python](https://www.python.org/downloads/) installed on your computer, v3.5 or newer
 - a text editor installed on your computer. If you don't have a favourite, we suggest [VS Code](https://code.visualstudio.com/) and the [Python extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python).
+- Configure GitHub with [SSH keys](https://docs.github.com/en/authentication/connecting-to-github-with-ssh) so that you can write to your repository.
 
 If you already have Python installed on your computer, you can check which version you have by opening a terminal (on macOS or Linux) or a command prompt (on Windows) and typing
 
@@ -27,7 +28,7 @@ Follow the prompt to give it a name, but otherwise leave the defaults as they ar
 
 On your computer, clone the repository you have just imported:
 - Click the green Code button at the top of the page containing your imported version of this repository
-- Select HTTPS and copy the text provided
+- Select SSH and copy the text provided
 - From a terminal (on macOS or Linux) or a command prompt (on Windows), run
   ```
   git clone <paste-string-here>
